@@ -5,7 +5,8 @@ Este repositorio contiene la implementación en C++ de un Algoritmo Genético co
 ## Requisitos y Dependencias
 
 C++17.
-Make
+
+Make.
 
 ## Compilación
 
