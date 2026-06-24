@@ -4,12 +4,12 @@ Este repositorio contiene la implementación en C++ de un Algoritmo Genético co
 
 ## Requisitos y Dependencias
 
-El código ha sido diseñado para compilarse y ejecutarse de manera completamente autónoma.
-**No requiere el uso de librerías externas** ni dependencias adicionales, utilizando exclusivamente la biblioteca estándar de C++ (C++17).
+C++17.
+Make
 
 ## Compilación
 
-El proyecto incluye un archivo `Makefile` preconfigurado. Para compilar el código fuente y generar el ejecutable, simplemente abra una terminal en el directorio del proyecto y ejecute el comando:
+Abrir una terminal en el directorio del proyecto y ejecutar el comando:
 
 ```bash
 make
@@ -35,7 +35,7 @@ Por defecto, el programa leerá las instancias en formato `.in` que se encuentre
 
 ### Ejecución de Experimentos
 
-Se incluye un script en Python llamado `run_experiments.py` cuyo único propósito es automatizar la generación de tablas de resultados y gráficos experimentales (no es necesario para la ejecución principal del algoritmo en C++). Si desea ejecutar las baterías de pruebas y generar los gráficos:
+Se incluye un script en Python llamado `run_experiments.py` cuyo único propósito es automatizar la generación de tablas de resultados y gráficos experimentales (no es necesario para la ejecución principal del algoritmo). Si desea ejecutar las pruebas y generar los gráficos:
 
 ```bash
 python3 run_experiments.py
@@ -81,8 +81,7 @@ target_instances=wlp01,wlp04,wlp05,wlp07,wlp10,wlp30
 ```
 
 ## Estructura del Código
-- `cflp_ci.cpp`: Archivo principal con la lógica central del Algoritmo Genético, evaluación de bitsets, cruzamiento PMX, mutación y el decodificador heurístico.
-- `cflp_ci_base.cpp`: Versión base del código sin optimizaciones de bitsets (solo para referencia).
+- `cflp_ci.cpp`: Archivo principal con la lógica central del Algoritmo Genético.
 - `Makefile`: Script de compilación.
 - `config.txt`: Configuración principal.
 - `instancias/`: Directorio con los archivos de entrada `.in` del problema CFLP-CI.
