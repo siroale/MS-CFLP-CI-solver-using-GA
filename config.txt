@@ -1,0 +1,14 @@
+pop_size=200
+num_generations=125
+mut_rate_fac=0.1
+mut_rate_cli=0.05
+crossover_rate=0.8
+tournament_k=3
+max_generations_without_improvement=50
+seeds=1234,5678,91011,121314,151617
+facility_priority_init_prob=0.1
+shuffle_prob_pct=30
+shuffle_window=3
+max_init_attempts=1000
+num_threads=5
+target_instances=wlp01
